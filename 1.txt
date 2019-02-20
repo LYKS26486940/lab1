@@ -1,0 +1,13 @@
+int LP=2;
+void setup()
+{
+  pinMode(LP, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LP, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+digitalWrite(LP, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
